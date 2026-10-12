@@ -17,7 +17,7 @@ function M.load()
     local set = vim.api.nvim_set_hl
 
     if M.options.dim_comments then
-        comment_fg = palette.comment
+        local comment_fg = palette.comment_variants[M.options.fg] or palette.comment
     end
 
     set(0, "Normal", {

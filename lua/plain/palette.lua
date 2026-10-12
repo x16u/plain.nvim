@@ -7,6 +7,11 @@ return {
         sunny = "#ffcc32",
     },
     comment = "#808080",
+    comment_variants = {
+        default = "#808080",
+        nerdy = "#254914",
+        sunny = "#997515",
+    },
     linenr = "#666666",
     cursorlinenr = "#999999",
     visual = "#303030",
